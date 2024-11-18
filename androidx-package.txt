@@ -1,0 +1,6 @@
+enable property=android:enableJetifier=True
+
+settings.gradle=jcenter()
+                 maven{ 
+                      setUrl("https://jitpack.io")
+                 }
